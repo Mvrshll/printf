@@ -48,7 +48,6 @@ int print_string(va_list types, char buffer[],
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);
-
 	if (str == NULL)
 	{
 		str = "(null)";
